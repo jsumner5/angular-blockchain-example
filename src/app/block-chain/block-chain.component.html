@@ -1,0 +1,6 @@
+
+<button (click)="addBlock()"> Add Block</button>
+
+<div  *ngFor="let b of chain; let i = index;">
+  <app-block [block]="b" style="display:inline-block; float:left;"></app-block>
+</div>

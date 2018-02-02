@@ -1,0 +1,11 @@
+#square {
+
+    background: lightgray;
+    margin: 1em;
+    padding:1em;
+    font-size: 1.2em;
+}
+
+td{
+    border: solid 2px black;
+}
